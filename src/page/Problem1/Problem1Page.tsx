@@ -113,7 +113,7 @@ return (n * (n + 1)) / 2;
               <code className="bg-gray-200 text-gray-800 px-1.5 py-0.5 rounded-md text-sm">
                 return
               </code>
-              - summation to 
+              - summation to
               <code className="bg-gray-200 text-gray-800 px-1.5 py-0.5 rounded-md text-sm">
                 n
               </code>
