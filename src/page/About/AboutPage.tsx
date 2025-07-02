@@ -38,7 +38,7 @@ export function AboutPage() {
         <div className="flex flex-row items-center gap-2">
           <Avatar>
             <AvatarImage
-              src="/public/about/avatar.jpg"
+              src="/avatar.jpg"
               className="rounded-full h-12 w-12 object-cover"
             />
             <AvatarFallback>My Avatar</AvatarFallback>
