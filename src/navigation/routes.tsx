@@ -2,8 +2,8 @@ import type { ComponentType, JSX } from "react";
 
 import { AboutPage } from "@/page/About/AboutPage";
 import ProblemOne from "@/page/Problem1/Problem1Page";
-import { ProblemTwo } from "@/page/Problem2/Problem2Page";
-import { ProblemThree } from "@/page/Problem3/Problem3Page";
+import ProblemTwo from "@/page/Problem2/Problem2Page";
+import ProblemThree from "@/page/Problem3/Problem3Page";
 interface Route {
   path: string;
   Component: ComponentType;

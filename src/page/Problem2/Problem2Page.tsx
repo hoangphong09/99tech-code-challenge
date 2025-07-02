@@ -23,7 +23,7 @@ import { type Token, getTokens } from "@/lib/token";
 import { useDebounce } from "use-debounce";
 import { toast } from "sonner";
 
-export function ProblemTwo() {
+export default function ProblemTwo() {
   const [tokens, setTokens] = useState<Token[]>([]);
   const [fromToken, setFromToken] = useState<Token | undefined>();
   const [toToken, setToToken] = useState<Token | undefined>();
